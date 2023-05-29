@@ -1,0 +1,83 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+.background{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.info_div{
+    height: 100%;
+    padding: 20px;
+}
+.title{
+    font-family:'Roboto-Bold';
+    font-size: 55px;
+}
+.subtitle{
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+}
+.item_list{
+    list-style: none;
+    padding-inline-start: 0;
+    font-family: 'Roboto-Regular';
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.list_item{
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+}
+.checkmark{
+    vertical-align: bottom;
+    padding-right: 15px;
+}
+.form_label{
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 12px;
+}
+.form_email{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 55px;
+    border-radius:10px;
+    border-style: solid;
+    border-color: hsl(235, 18%, 26%);
+}
+
+.form_email::placeholder{
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    padding-left: 20px;
+}
+.form_button{
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: none;
+    width: 91%;
+    height: 60px;
+    background-color: hsl(234, 29%, 20%);
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    color: white;
+}
+.form_button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
