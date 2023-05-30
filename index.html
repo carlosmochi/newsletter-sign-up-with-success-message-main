@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./styles.css">
-  
+  <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+  <script src="./JS/script.js"  type="module"></script>
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,11 +28,13 @@
         <p><img class="checkmark" src="./assets/images/icon-list.svg">And much more!</p></li>
     </ul>
     <form class="form">
-      <label class="form_label" >Email address</label>
+      <div class="label_div">
+        <label class="form_label" >Email address</label>
+        <label class="email_warning" hidden>Valid email required</label>
+      </div>
+      <input class="form_email" name="email" id="email" type="email" placeholder="email@company.com">
     </br>
-      <input class="form_email" type="email" placeholder="email@company.com">
-    </br>
-      <button class="form_button">Subscribe to monthly newsletters</button>
+      <button class="form_button" onclick="func.checkEmail(email)">Subscribe to monthly newsletters</button>
     </form>
   </div>
   <div class="img_div">
