@@ -3,25 +3,26 @@
 
 @font-face {
     font-family: Roboto-Bold;
-    src: url(./assets/fonts/Roboto-Bold.ttf);
+    src: "./assets/fonts/Roboto-Bold.ttf";
 }
 @font-face {
     font-family: Roboto-Regular;
-    src: url(./assets/fonts/Roboto-Regular.ttf);
+    src: "./assets/fonts/Roboto-Regular.ttf";
 }
 
-.background{
+.sign_up{
     display: flex;
     background-color: white;
     justify-content: center;
-    width: 60%;
+    width:min-content;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     border-radius: 30px;
 }
 
 .info_div{
     height: 100%;
+    width: 350px;
     padding: 20px;
 }
 .title{
@@ -95,4 +96,24 @@
 }
 .form_button:hover{
     background-color: hsl(4, 100%, 67%);
+}
+
+.mobile{
+    display: none;
+}
+
+.success-div{
+    width: 340px;
+}
+.success-title{
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.success-message{
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    font-weight: 400;
 }

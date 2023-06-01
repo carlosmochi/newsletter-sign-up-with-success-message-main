@@ -1,0 +1,50 @@
+@media screen and (max-width: 375px){
+    body, html{
+        height: 100%;
+        align-items: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .sign_up{
+        flex-direction: column-reverse;
+        padding: 0;
+        border-radius: 0%;
+        width: 375px;
+        height: 120%;
+        
+    }
+    .info_div{
+        width: 90%;
+    }
+    .label_div{
+
+    }
+    .image_div{
+        width: 80%;
+    }
+
+    .success_div{
+        width: 85%;
+        height: 100%;
+        /* vertical-align: bottom; */
+        /* align-content: space-between; */
+        padding: 7%;
+    }
+    .dismiss{
+        width: 84%;
+        position:fixed;
+        bottom: 0%;
+
+    }
+    .success-message{
+        width: 100%;
+        font-size: 17px;
+    }
+    .success-title{
+        font-size: 40px;
+    }
+}

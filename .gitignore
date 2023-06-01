@@ -16,6 +16,4 @@
 .prettierignore
 
 .design
-README-template.md
-README.md
-style-guide.md
+.gitignore
